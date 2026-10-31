@@ -2,6 +2,8 @@
 
 A file picker for Claude Code's `@` mentions that shows what you are about to attach. Arrow through a folder and the panel beside the list describes the highlighted entry: a thumbnail and dimensions for images, page count for PDFs, line count and the first lines for text files, item count for folders, and git state for anything in a repository. Press `p` to open it in macOS Quick Look, Enter to drop it into your prompt as an `@` mention.
 
+![file-peek with a screenshot highlighted: its thumbnail and details in the panel beside the list](docs/screenshot.png)
+
 The thumbnail is drawn with coloured quadrant block characters, so it works in any terminal with true colour, including inside multiplexers such as tmux or herdr. It is a preview, not a full picture: use Quick Look for the real image.
 
 ## Install
