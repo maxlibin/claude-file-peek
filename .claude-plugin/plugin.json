@@ -1,0 +1,8 @@
+{
+  "name": "file-peek",
+  "version": "0.1.0",
+  "description": "A file picker for @ mentions with a live info panel for the highlighted file and Quick Look preview (macOS)",
+  "author": { "name": "maxlibin" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
